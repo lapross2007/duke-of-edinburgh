@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'pages',
 ]
 
 MIDDLEWARE = [
@@ -53,6 +54,8 @@ ROOT_URLCONF = 'dukeofedinburgh.urls'
 
 TEMPLATES = [
     {
+        'DIRS': [str(BASE_DIR.joinpath('templates'))],
+
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
         'APP_DIRS': True,
@@ -65,6 +68,7 @@ TEMPLATES = [
             ],
         },
     },
+
 ]
 
 WSGI_APPLICATION = 'dukeofedinburgh.wsgi.application'
