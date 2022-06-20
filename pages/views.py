@@ -27,3 +27,6 @@ class GpuPageView(TemplateView): # new
 
 class MboardPageView(TemplateView): # new
     template_name = 'pages/motherboard.html'
+
+class StoragePageView(TemplateView): # new
+    template_name = 'pages/storage.html'

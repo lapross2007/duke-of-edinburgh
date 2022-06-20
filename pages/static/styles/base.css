@@ -1,0 +1,24 @@
+* {
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+    /*font-size: 20px;*/
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: dimgrey;
+    text-align: center;
+}
+
+h2 > a {
+    color: white;
+    text-align: center;
+}
+
