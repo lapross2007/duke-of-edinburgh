@@ -9,6 +9,6 @@ urlpatterns = [
     path('cpu/', CpuPageView.as_view(), name='cpu'),
     path('psu/', PsuPageView.as_view(), name='psu'),
     path('gpu/', GpuPageView.as_view(), name='gpu'),
-    path('mboard/', MboardPageView.as_view(), name='mboard'),
+    path('motherboard/', MboardPageView.as_view(), name='mboard'),
     path('storage/', StoragePageView.as_view(), name='storage'),
 ]
