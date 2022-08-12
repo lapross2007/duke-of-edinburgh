@@ -4,14 +4,16 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-color: #fef00f;
     margin-left: 14rem;
     margin-right: 14rem;
 }
 
 .title {
-    font-size: 40px;
+    font-size: 90px;
     text-align: center;
+    /*font-family: "Cascade Script";*/
+    font-family: 'Nanum Brush Script', cursive;
 }
 
 h1 {
@@ -24,3 +26,15 @@ h2 > a {
     text-align: center;
 }
 
+.imagediv {
+    border: 20px white solid;
+    width: 50%;
+    text-align: center;
+}
+
+.imagediv > img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
